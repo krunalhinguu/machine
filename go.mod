@@ -1,10 +1,11 @@
 module github.com/rancher/machine
 
-go 1.20
+go 1.21
 
 replace (
 	github.com/docker/docker => github.com/moby/moby v1.4.2-0.20170731201646-1009e6a40b29
 	github.com/urfave/cli => github.com/urfave/cli v1.11.1-0.20151120215642-0302d3914d2a // newer versions of this will break the rpc binding code
+	github.com/rancher/wrangler => github.com/krunalhinguu/wrangler v1.29.0-rancher1
 )
 
 require (
@@ -34,9 +35,9 @@ require (
 	golang.org/x/sys v0.11.0
 	google.golang.org/api v0.57.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.27.4
-	k8s.io/apimachinery v0.27.4
-	k8s.io/client-go v0.27.4
+	k8s.io/api v0.29.0
+	k8s.io/apimachinery v0.29.0
+	k8s.io/client-go v0.29.0
 )
 
 require (
