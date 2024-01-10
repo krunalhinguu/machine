@@ -6,7 +6,6 @@ replace (
 	github.com/docker/docker => github.com/moby/moby v1.4.2-0.20170731201646-1009e6a40b29
 	github.com/rancher/wrangler/v2 => github.com/krunalhinguu/wrangler/v2 v2.29.0-rancher1
 	github.com/urfave/cli => github.com/urfave/cli v1.11.1-0.20151120215642-0302d3914d2a // newer versions of this will break the rpc binding code
-	github.com/rancher/wrangler => github.com/krunalhinguu/wrangler v1.29.0-rancher1
 )
 
 require (
